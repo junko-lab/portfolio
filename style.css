@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  line-height: 1.7;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.inner {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header {
+  padding: 24px 0;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.site-subtitle {
+  margin-top: 8px;
+  text-align: center;
+  color: #666;
+}
+
+.fv {
+  padding: 80px 0;
+  text-align: center;
+
+  background:linear-gradient(
+    180deg,
+    #ccebf3 0%,
+    #ffffff 100%
+  );
+}
+
+.fv-title {
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+.fv-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 15.5px;
+}
+
+.about-box,
+.contact-box {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #dfe7ec;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  line-height: 1.8;
+  
+}
+
+.about-box p + p,
+.contact-box p + p {
+  margin-top: 16px;
+}
+
+.about-box p {
+  line-height: 1.8;
+}
+
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.skill-item {
+  padding: 12px 24px;
+  background-color: #fff;
+  border: 1px solid #cfd8e3;
+  border-radius: 9999px;
+  
+}
+
+.works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.work-card {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #dfe7ec;
+  
+  font-size: 15px;
+}
+
+.work-image {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work-image img {
+  width: 100%;
+  height: calc((300px - 20px) / 2 );
+  object-fit: cover;
+}
+
+.work-image-single img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.work-body {
+  width: 60%;
+}
+
+.work-title {
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+}
+
+.footer {
+  padding: 24px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #a6dbe7;
+}
+
+.footer-text {
+  text-align: center;
+  color: #666;
+}
+
+a  {
+  color: blue;
+  text-decoration: underline;
+
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    padding: 56px 0;
+  }
+
+  .section-title {
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+  }
+
+  .fv {
+    padding: 72px 0;
+  }
+
+  .fv-title {
+    font-size: 1.8rem;
+  }
+
+  .fv-text{
+    font-size: 12px;
+  }
+  .about-box,
+  .contact-box {
+    padding: 24px;
+    font-size: 13px;
+  }
+
+  .work-card {
+    flex-direction: column;
+    font-size: 13px;
+    padding: 16px;
+  }
+
+  .work-image,
+  .work-body {
+    width: 100%;
+  }
+
+  .work-image img {
+   width: 100%;
+   height: auto;
+   display: block;
+   border-radius: 8px;
+  }
+
+  .work-image {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+}

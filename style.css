@@ -177,10 +177,6 @@ p {
   font-size: 1.4rem;
 }
 
-.sp-none {
-  disply:none;
-}
-
 .footer {
   padding: 24px 0;
   background-color: #ffffff;
@@ -250,4 +246,8 @@ a  {
   .work-text {
     max-width: 600px;
   }
+  
+.sp-none {
+  disply:none;
+ }
 }

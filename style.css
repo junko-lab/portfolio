@@ -248,5 +248,6 @@ a  {
     margin: 0 auto;
   }
   .work-text {
-    max-width: 540px;
+    max-width: 600px;
+  }
 }

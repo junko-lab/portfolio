@@ -13,8 +13,6 @@ body {
   color: #333;
 }
 
-
-
 img {
   max-width: 100%;
   vertical-align: bottom;
@@ -247,7 +245,7 @@ a  {
     max-width: 600px;
   }
   
-.sp-none {
+.sp- {
   disply:none;
  }
 }
